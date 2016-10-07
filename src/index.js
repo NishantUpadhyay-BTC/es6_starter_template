@@ -4,9 +4,5 @@ require("babel-register")({
     ],
 });
 
-let iterable = [10, 20, 30];
-
-for (const value of iterable) {
-  console.log(value);
-}
-console.log('Congratulations! You All set to go ahead!!!!')
+import Symbols from './Symbols';
+new Symbols()
